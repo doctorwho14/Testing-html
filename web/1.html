@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<title>WEB1 - html</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1><a href="index.html">WEB</a></h1>
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<h2>html이란 무엇인가?</h2>
+<p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">
+  Hypertext Markup Language (HTML)</a> is the standard markup language for
+<strong>creating <u>web</u> pages</strong> and web applications.
+Web browsers receive HTML documents from a web server or from
+local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically and originally
+included cues for the appearance of the document.
+<img src="coding.jpg" width="90%">
+</p><p>
+HTML elements are the building blocks of HTML pages. With HTML constructs,
+ images and other objects, such as interactive forms, may be embedded into
+ the rendered page. It provides a means to create structured documents
+ by denoting structural semantics for text such as headings, paragraphs,
+ lists, links, quotes and other items. HTML elements are delineated by tags,
+ written using angle brackets.</p>
+ </body>
+ </html>
+
+<!--2022년 9월 29일 목요일
+0. 검색엔진을 가능케한 태그, Hypertext라 지칭하는 anchor의 첫글자를 딴 <a>태그.
+   바로 link로 쓰인다. 정보의 바다에 닻을 내린다는 의미로써 link가 있어야 원하는
+   정보에 다가갈 수 있기 때문에 <a>태그는 모든 웹사이트에 찾아갈 수 있게 해주는
+   역할을 한다.
+0-1. Hypertext란 사용자가 참조를 통해서 다른 문서로 접근할 수 있게 해주는 text이다.
+1. <a href="link주소"></a> : Hypertext에서의 H와 REFerence(참조)의 REF를 따서
+   href라고 한다. 즉 참조하고자 하는 link주소를 물어봄.
+2. <a href="link주소" target="_blank"></a> : _blank의 의미는 새탭으로 link를
+   열어달라는 의미임.
+3. <a href="link주소" title="설명"></a> : 내가 만든 웹페이지에서 마우스를 link에
+   가져다놨을 때 설명이 나오게끔 함.
+
+-->
+
+<!--2022년 9월 13일 화요일
+0. 부모 자식과 목록 그리고 문서의 구조
+1. 단축키: ctrl키를 누른 상태에서 여러곳을 클릭하면 꺽새가 여러군데에 생김.
+2. <li></li> : list라는 명칭. 목차나 목록을 만들 때 쓰임.
+3. <ul></ul> : Unordered list의 약자. <li> 부모태그이다. <li>태크와 같이 어디서
+    부터 어디까지 연관되어있는지를 구분하기 위해 필요한 부모태그이다. 즉, li태그는
+    반드시 부모태그인 ul태그가 있어야 하고 반대도 마찬가지이다.
+4. <ol></ol> : Ordered list의 약자. <li>태그를 이용시 순차적으로 번호를 자동으로
+    붙여주는 부모태그이다.
+5. <title></title> : 우리가 만든 웹사이트를 여러 정보들이 담긴 책이라고 생각한다면
+    제목, 즉 책의 표지를 결정짓게 해주는 태그가 title태그이다. 검색엔진에서 여러
+    웹사이트들을 추적할 때 title태그를 보고 추적하기 때문에 title태그가 없는 것은
+    굉장한 손해이다.
+6. <meta charset="utf-8"> : 웹브라우저와 이 프로그램을 동일한 utf-8로 문서를 읽<
+    위한 태그. 컴퓨터는 모든 언어를 0과 1로 표현하기 때문에 한국어가 제대로 표기
+    되지 않을 수 있다. 그러므로 메타의 문자 설정(character set)을 바꿔주면 해결됨.
+7. <body></body> : 본문의 내용을 감싸는 태그(상위의 태그)
+8. <head></head> : 본문을 설명하는 즉, body를 설명하는 태그(상위의 태크). html에
+    있는 태그들은 body나 head태그 안에 있다고 보면 된다.
+9. <html></html> : 최고위층 태그. 그리고 body와 head태그를 감싸는 html태그는
+    코드들이 html로 작성되었음을 표시함. 관용적으로 맨 위에 이 문서가 html로 쓰였
+    다는 것을 말하는 <!doctype html>을 쓰고 html태그를 쓴다.
+10. 웹사이트에서 마우스의 오른쪽을 클릭하여 페이지 소스보기 또는 ctrl+u를 누르면
+    여기서 보는 코드와 똑같은 코드들을 볼 수 있다. 즉, 웹사이트가 어떤 방식으로
+    짜여져 있는지 확인할 수 있음.
+-->
+
+<!--2022년 8월 24일 수요일
+0. 보이는 건 같아도 코드상으로 보면 완전히 다르다.
+ㅡㅡㅡㅡ일반인의 웹사이트ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ지식인의 웹사이트ㅡㅡ
+<span style="font-size:24px">
+  coding                           vs        <h3>coding</h3>
+</span>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+거의 비슷한 결과를 내지만 만약 10년 뒤의 검색엔진으로 coding을 검색한다면
+검색엔진은 코드상의 제목으로 분류된 지식인의 웹사이트를 먼저 표시할 것이다.
+그러므로 웹사이트를 만들 때 보이는걸로만 판단하면 안되고 코드상으로 이 코드
+가 어떤 목적과 의미로 만들어졌는지를 생각하고 적절하게 써야한다.
+1. <img 속성> : 이미지 삽입. 속성(attribute)은 1개 이상 가능하고 순서는 무관
+   ex) <img (속성1:이미지파일)src="coding.jpg" (속성2:크기)width="100%">
+       <img (속성2:크기)width="100%" (속성1:이미지파일)src="coding.jpg">
+2. 퀄리티 높은 무료 이미지 사이트: Unsplash
+-->
+
+<!-- 2022년 8월 19일 금요일
+0. 구글링을 통해서 태그의 용도를 검색하는 습관(html 찾고있는거 tag)
+1. h1~h6: headings라는 명칭. 숫자가 올라갈수록 크기가 작아짐. 줄바꿈 됨. 일반적인
+   글자보다 두꺼움. 즉, 제목을 나타냄.
+2. <br> : break라는 명칭. 줄바꿈 태크. </br>을 써서 닫아줄 필요가 없음.
+3. <p>내용</p> : paragraph라는 명칭. 절 또는 단락을 나눠주는 태그
+-->
+
+<!-- 2022년 7월 27일 수요일
+0. <내용>: 태그라고 함
+1. <strong>내용</strong> : 내용부분을 진하게 표시. 즉, 강조함.
+2. <u>내용</u> : 내용에 밑줄을 침. underline(밑줄)의 u를 따서 만듬.
+-->
